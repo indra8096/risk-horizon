@@ -1,6 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import Form from "$/components/form"
+import WordReveal from "$/components/ui/word-reveal"
 export default function Component() {
   return (
     <div className="flex flex-col min-h-[100dvh] bg-riskbg">
@@ -16,11 +17,15 @@ export default function Component() {
           }}
         >
           <div className="container px-4 md:px-6">
-            <div className="grid gap-6 lg:grid-cols-[1fr_550px] lg:gap-12 xl:grid-cols-[1fr_700px]">
+            <div className="grid gap-6 grid-cols-[450px] my-20 lg:my-0 lg:grid-cols-[1fr_450px] lg:gap-12 xl:grid-cols-[1fr_700px]">
               <div className="flex flex-col justify-center space-y-4">
                 <div className="space-y-2">
-                  <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none text-white">
-                    Joignons nos forces pour garantir votre sécurité en ligne.
+                  <h1 className="font-bold tracking-tighter text-white">
+                    <WordReveal
+                      text="Joignons nos forces pour garantir votre sécurité en ligne."
+                      delay={0.2}
+                      className="!text-left !text-white !text-6xl !sm:text-5xl !xl:text-7xl/none"
+                    />
                   </h1>
                   <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
                     Notre mission est de rendre le monde numérique plus sûr pour
