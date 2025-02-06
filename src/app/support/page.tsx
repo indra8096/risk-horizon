@@ -32,15 +32,14 @@ function Page() {
                 <CardHeader>
                   <CardTitle className="flex items-center">
                     <Zap className="h-6 w-6 mr-2" />
-                    Red Team Services
+                    Services de support
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <ul className="list-disc pl-5 space-y-2">
-                    <li>Formation de sensibilisation/prévention</li>
-                    <li>Audit de sécurité</li>
-                    <li>{"Test d’intrusion"}</li>
-                    <li>Intervention curative</li>
+                    <li>Intervention après piratage ou panne</li>
+                    <li>Audit et sécurisation des infrastructures</li>
+                    <li>Surveillance et prévention des incidents</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -53,10 +52,7 @@ function Page() {
                 </CardHeader>
                 <CardContent>
                   <ul className="list-disc pl-5 space-y-2">
-                    <li>Développement de Site Web</li>
-                    <li>{"Programmation d’application"}</li>
-                    <li>Installation Cloud Privé</li>
-                    <li>Gestion de base de données</li>
+                    
                   </ul>
                 </CardContent>
               </Card>
